@@ -1,0 +1,12 @@
+[Unit]
+Description=Smarthome dashboard server
+After=network-online.target
+
+[Service]
+WorkingDirectory=%h/smarthome
+ExecStart=%h/smarthome/.venv/bin/python -m server.app
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target

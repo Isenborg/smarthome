@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=Smarthome kiosk
+Exec=/home/pi/smarthome/pi/kiosk.sh

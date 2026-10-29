@@ -1,0 +1,39 @@
+# Copy to config.toml (which is git-ignored) and fill in.
+# Calendar links are secret: anyone with the link can read the calendar.
+
+[location]
+name = "Linköping"
+latitude = 58.4108
+longitude = 15.6214
+timezone = "Europe/Stockholm"
+
+[display]
+days_ahead = 7
+
+[server]
+host = "127.0.0.1"
+port = 8000
+
+# One block per calendar. `person` is the label shown on the screen.
+#
+# iCloud:  Calendar app > right-click calendar > Share Calendar > Public Calendar > copy link
+# Google:  calendar.google.com > Settings > (calendar) > "Secret address in iCal format"
+# Outlook: outlook.office.com > Settings > Calendar > Shared calendars > Publish a calendar > ICS link
+
+# [[calendars]]
+# person = "Me"
+# name = "iCloud"
+# color = "#5aa9ff"
+# url = "webcal://p00-caldav.icloud.com/published/2/..."
+
+# [[calendars]]
+# person = "Me"
+# name = "Work (Outlook)"
+# color = "#8f7bff"
+# url = "https://outlook.office365.com/owa/calendar/.../calendar.ics"
+
+# [[calendars]]
+# person = "Wife"
+# name = "Google"
+# color = "#ff8a65"
+# url = "https://calendar.google.com/calendar/ical/.../basic.ics"
